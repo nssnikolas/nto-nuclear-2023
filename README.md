@@ -4,7 +4,7 @@ Team InnoClear complete task for students' track final stage of National Technol
 The InnoСlear team:
 - [Nikolas Semenov](https://github.com/nssnikolas)
 - [Art'om Voronov](https://github.com/vor-art)
-- [Roman Voronov](https://github.com/nssnikolas)
+- [Roman Voronov](https://github.com/V-Roman-V)
 - [Sergey Pasynkov](https://github.com/chiplinka)
 - [Nikolay Nechaev](https://github.com/kolayne)
 
