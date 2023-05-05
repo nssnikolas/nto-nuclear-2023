@@ -1,11 +1,12 @@
 # nto-nuclear-2023
 Team InnoClear complete task for students' track final stage of National Technological Olympiad (NTO) 2023 in "Nuclear Technologies" profile.
-Innoclear team:
-- Nikolay Semenov (@nssnikolas);
-- Art'om Voronov (@vor-art);
-- Roman Voronov
-- Sergey Pasynkov
-- Nikolay Nechaev 
+
+The Innoclear team:
+- [Nikolas Semenov](https://github.com/nssnikolas)
+- [Art'om Voronov](https://github.com/vor-art)
+- [Roman Voronov](https://github.com/nssnikolas)
+- [Sergey Pasynkov](https://github.com/nssnikolas)
+- [Nikolay Nechaev](https://github.com/nssnikolas)
 
 # mikSYS installation
 Firstly, you need to install real-time software mikSYS. The order is:
