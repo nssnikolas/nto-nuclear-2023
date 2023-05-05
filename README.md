@@ -26,5 +26,5 @@ You're full set to start the project!
 4) Operations with parameters can be found a bit upper: ![image](https://user-images.githubusercontent.com/90476733/236499738-2b4f3e97-3267-4445-8e55-2ded1c67bc54.png)
 5) Launch "Display(x64)" (according to your system) you'll see user interface of the simulation:![image](https://user-images.githubusercontent.com/90476733/236497863-7c90bff7-c427-4172-a4ab-37a9b561adca.png)
 
-Our summary on project is also there.
+Software manuals and our summary on project is also there.
 So, thats it! And may the code be with you)
