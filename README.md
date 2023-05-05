@@ -1,4 +1,3 @@
-# nto-nuclear-2023
 Team InnoClear complete task for students' track final stage of National Technological Olympiad (NTO) 2023 in "Nuclear Technologies" profile.
 
 The InnoСlear team:
