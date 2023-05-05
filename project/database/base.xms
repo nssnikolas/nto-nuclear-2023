@@ -1,0 +1,1196 @@
+<?xml version="1.0"?>
+<scheme name="base" raster="" width="640" height="480" helpfile="" helpx="0" helpy="0" helpw="0" helph="0" helpx2="0" helpy2="0" helpw2="0" helph2="0" helpx3="0" helpy3="0" helpw3="0" helph3="0" grid_x="10" grid_y="10" grid_mx="5" grid_my="5" grid_offset_x="0" grid_offset_y="0" grid_angle="0" grid_enabled="false" grid_menabled="false" grid_buttons="false" grid_mode="0" grid_dx="10" grid_dy="10" vis_scale_min="0" vis_scale_max="0" sc_scale_min="0" sc_scale_max="0" load_pair_file="false" load_pair_3d_file="false" checksum="342b17b77f34e56ef16412bd328b8594">
+	<grid type="label">
+		<pos_x value="18" />
+		<pos_y value="435" />
+		<offset_x value="-38" />
+		<offset_y value="54" />
+		<padding_x value="51" />
+		<padding_y value="678" />
+		<padding_z value="6758" />
+		<swap_xy value="true" />
+		<instance>
+			<color1 value="16777215" />
+			<color2 value="5570687" />
+			<offset_x value="40" />
+			<offset_y value="-53" />
+			<border_width value="1" />
+			<confirmtext value="подтвержаю" />
+			<comment value="Время" />
+			<fontsize value="15" />
+			<dateformat value="1" />
+			<background value="1" />
+			<text balloon_f="true" balloon_nm="true" balloon_dsc="true" value="%v asdasd" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="13" />
+		<pos_y value="459" />
+		<instance>
+			<comment value="Заголовок времени" />
+			<confirmbutton value="1" />
+			<fontsize value="14" />
+			<text value="Астрономическое время:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="339.59" />
+		<pos_y value="480.64" />
+		<instance>
+			<color1 value="12105866" />
+			<border_width value="1" />
+			<comment value="Подложка регулятор" />
+			<width value="300" />
+			<height value="-160" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="339.59" />
+		<pos_y value="200.64" />
+		<instance>
+			<color1 value="11184767" />
+			<border_width value="1" />
+			<comment value="Подложка параметры" />
+			<width value="300" />
+			<height value="188" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="340" />
+		<instance>
+			<color1 value="12105866" />
+			<border_width value="1" />
+			<comment value="Подложка график" />
+			<width value="300" />
+			<height value="205" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="355" />
+		<pos_y value="451" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок регулятор" />
+			<fontsize value="18" />
+			<text value="Регуляторы:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="355" />
+		<pos_y value="357.64" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок параметры" />
+			<fontsize value="18" />
+			<text value="Параметры:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="355" />
+		<pos_y value="187" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок график" />
+			<fontsize value="18" />
+			<text value="График:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="chart">
+		<pos_x value="348" />
+		<pos_y value="7" />
+		<instance>
+			<border_width value="1" />
+			<comment value="Самописец" />
+			<fontsize value="10" />
+			<period value="500" />
+			<width value="285" />
+			<height value="172" />
+			<extra_depth value="2048" />
+			<table_height value="36" />
+			<print_name value="0" />
+			<print_value value="1" />
+			<minmaxType value="2" />
+			<fixMax value="2.4" />
+			<db value="1 1 " />
+			<num value="8 17 " />
+			<colors value="16776960 65280 " />
+			<widths value="0 0 " />
+			<drawCursor value="true" />
+		</instance>
+		<link>
+			<fixMax db="1" num="43" precision="0.01" active="true" />
+			<fixMin db="1" num="44" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="46" />
+		<pos_y value="75" />
+		<offset_x value="23" />
+		<offset_y value="30" />
+		<instance>
+			<offset_x value="-63" />
+			<offset_y value="-83" />
+			<comment value="Изображение Диаэратор" />
+			<width value="259" />
+			<height value="318" />
+			<file value="../img/деаэратор.png" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="picture">
+		<pos_x value="89" />
+		<pos_y value="286" />
+		<instance>
+			<color1 value="10855845">
+				<clr min="0" max="0.5" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="0.5" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<comment value="Изображение Вентиль1_1" />
+			<btn_name1 value="Кнопка Верх Перекрыть" />
+			<width value="16" />
+			<height value="36" />
+			<file value="../img/вентель1.png" />
+		</instance>
+		<link>
+			<color1 db="1" num="3" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="50" />
+		<pos_y value="315" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="0" max="0.5" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="0.5" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<offset_x value="-13" />
+			<offset_y value="11" />
+			<comment value="Изображение Вентиль1_2" />
+			<btn_name1 value="Кнпк ВВЕРХ Ручное управление" />
+			<width value="43" />
+			<height value="19" />
+			<file value="../img/вентель5.png" />
+		</instance>
+		<link>
+			<color1 db="1" num="4" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="184" />
+		<pos_y value="12" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="0" max="0" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<offset_x value="2" />
+			<offset_y value="4" />
+			<comment value="Изображение Вентиль2_2" />
+			<width value="36" />
+			<height value="20" />
+			<file value="../img/вентель3.png" />
+		</instance>
+		<link>
+			<color1 db="1" num="6" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="167" />
+		<pos_y value="69" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="0" max="0.5" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="0.5" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<angle value="181" />
+			<comment value="Изображение Вентиль2_1" />
+			<btn_name1 value="НИЗ ручное копка" />
+			<tooltip_name0 value="Заголовок времени" />
+			<width value="16" />
+			<height value="36" />
+			<file value="../img/вентель1.png" />
+		</instance>
+		<link>
+			<color1 db="1" num="5" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="244" />
+		<pos_y value="232" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="0" max="0" blinking="0" gradient="0" value="8618883" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="16777215" value2="16777215" />
+			</color1>
+			<offset_x value="2" />
+			<offset_y value="4" />
+			<angle value="91" />
+			<comment value="Изображение Вентиль3" />
+			<width value="36" />
+			<height value="25" />
+			<file value="../img/вентель3.png" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="160" />
+		<pos_y value="90" />
+		<instance>
+			<border_width value="2" />
+			<comment value="Подложка Стакана" />
+			<width value="40" />
+			<height value="165" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="160" />
+		<pos_y value="90" />
+		<instance>
+			<color1 value="65535" />
+			<border_width value="1" />
+			<comment value="Стакан" />
+			<width value="40" />
+			<height value="60" />
+		</instance>
+		<link>
+			<height db="1" num="8" precision="0.01" min="5" max="160" max_f="2.4" clamp="true" active="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="51" />
+		<pos_y value="228" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок Желаемого значения" />
+			<fontsize value="11" />
+			<text value="Желаемый уровень:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="53" />
+		<pos_y value="144" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок Текущего значения" />
+			<fontsize value="11" />
+			<text value="Текущий уровень:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="65" />
+		<pos_y value="207" />
+		<padding_x value="80" />
+		<padding_y value="22" />
+		<instance>
+			<color1 value="0" />
+			<color2 value="15987699" />
+			<border_width value="1" />
+			<comment value="Поле Желаемый уровень" />
+			<font value="arialbd.ttf" />
+			<maxwidth value="75" />
+			<background value="1" />
+			<text balloon_dsc="true" value="%v %u" />
+		</instance>
+		<link>
+			<color1 db="1" num="17" precision="0.01" max="2.4" max_f="2.4" clamp="true" active="true" editable="true" tooltip="true" />
+			<text db="1" num="17" precision="0.01" max="2.4" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="63" />
+		<pos_y value="128" />
+		<padding_x value="80" />
+		<padding_y value="22" />
+		<instance>
+			<color1 value="0" />
+			<color2 value="15987699" />
+			<border_width value="1" />
+			<comment value="Поле Текущего значения" />
+			<font value="arialbd.ttf" />
+			<maxwidth value="75" />
+			<background value="1" />
+			<text balloon_dsc="true" value="%v %u" />
+		</instance>
+		<link>
+			<color1 db="1" num="8" precision="0.0001" active="true" />
+			<text db="1" num="8" precision="0.0001" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="194" />
+		<pos_y value="441" />
+		<instance>
+			<color1>
+				<clr min="0" max="0" blinking="0" gradient="0" value="16711680" value2="16777215" />
+			</color1>
+			<comment value="Кнопка Сброса" />
+			<width value="139" />
+			<timetoreset value="500" />
+			<resetvalue value="1" />
+			<explicitreset value="1" />
+			<timetohold0 value="500" />
+			<keys2 value="0" />
+			<text value="Сброс параметров системы" />
+			<fontsize value="11" />
+		</instance>
+		<link>
+			<color1 db="1" num="1" precision="0.01" active="true" />
+			<valuetoset db="1" num="1" precision="0.01" max="1" active="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="6" />
+		<pos_y value="286" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Значение входного потока воды (%)" />
+			<fontsize value="10" />
+			<text balloon_dsc="true" value="Q вх: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="13" precision="0.01" maxdigits="5" active="true" />
+			<text db="1" num="13" precision="0.01" maxdigits="5" active="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="123" />
+		<pos_y value="17" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Значение выходного потока воды (%)" />
+			<fontsize value="10" />
+			<text balloon_dsc="true" value="Q вых: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="15" precision="0.01" maxdigits="5" active="true" />
+			<text db="1" num="15" precision="0.01" maxdigits="5" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="9" />
+		<pos_y value="387" />
+		<instance>
+			<comment value="Кнпк ВВЕРХ Ручное управление" />
+			<width value="90" />
+			<height value="32" />
+			<valuetoinc value="1" />
+			<valuetoset2 value="1" />
+			<keys2 value="0" />
+			<text value="">
+				<txt min="0" max="0" value="Руч. упр. верх. заслонкой: вкл" />
+				<txt min="1" max="1" value="Руч. упр. верх. заслонкой: выкл" />
+			</text>
+			<fontsize value="11" />
+		</instance>
+		<link>
+			<text db="1" num="4" precision="0.01" active="true" />
+			<valuetoset db="1" num="4" precision="0.01" active="true" />
+			<valuetoset2 db="1" num="4" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="245" />
+		<pos_y value="20" />
+		<instance>
+			<color1 value="6133503" />
+			<border_width value="1" />
+			<comment value="Подложка НИЗ ручной" />
+			<width value="90" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="444" />
+		<pos_y value="430" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Reg1 K" />
+			<confirmbutton value="1" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="K: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="30" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="30" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="503" />
+		<pos_y value="430" />
+		<instance>
+			<border_width value="1" />
+			<comment value="Reg1 T1" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="I: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="31" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="31" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="560" />
+		<pos_y value="430" />
+		<padding_x value="82" />
+		<instance>
+			<border_width value="1" />
+			<comment value="Reg1 T2" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="T: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="29" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="29" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="444" />
+		<pos_y value="408" />
+		<instance>
+			<border_width value="1" />
+			<comment value="Reg2 K" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="K: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="35" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="35" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="505" />
+		<pos_y value="411" />
+		<instance>
+			<offset_x value="-2" />
+			<offset_y value="-3" />
+			<border_width value="1" />
+			<comment value="Reg2 T1" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="I: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="36" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="36" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="564" />
+		<pos_y value="411" />
+		<instance>
+			<offset_x value="-4" />
+			<offset_y value="-3" />
+			<border_width value="1" />
+			<comment value="Reg2 T2" />
+			<maxwidth value="45" />
+			<background value="1" />
+			<text balloon_dsc="true" value="T: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="34" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="34" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="circle">
+		<pos_x value="623" />
+		<pos_y value="438" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="1" max="1" blinking="0" gradient="0" value="57600" value2="16777215" />
+				<clr min="0" max="0" blinking="0" gradient="0" value="10658466" value2="16777215" />
+			</color1>
+			<comment value="Reg1 Led" />
+			<btn_name1 value="Кнпк ВВЕРХ Ручное управление" />
+		</instance>
+		<link>
+			<color1 db="1" num="4" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="346" />
+		<pos_y value="428" />
+		<instance>
+			<comment value="Reg1 txt" />
+			<text value="Верх. заслонка:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="346" />
+		<pos_y value="409" />
+		<instance>
+			<comment value="Reg2 text" />
+			<text value="Ниж. заслонка:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="144" />
+		<pos_y value="315" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Текущее значение выпара" />
+			<fontsize value="10" />
+			<text balloon_dsc="true" value="Q вып: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="14" precision="0.001" active="true" />
+			<text db="1" num="14" precision="0.001" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="113" />
+		<pos_y value="389" />
+		<instance>
+			<color1>
+				<clr min="0" max="0" blinking="0" gradient="0" value="12517312" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="16761272" value2="16777215" />
+			</color1>
+			<comment value="Кнопка Верх Перекрыть" />
+			<width value="60" />
+			<height value="30" />
+			<valuetoset value="1" />
+			<keys2 value="0" />
+			<text value="">
+				<txt min="0" max="0.5" value="Перекрыть заслонку" />
+				<txt min="0.5" max="1" value="Открыть заслонку" />
+			</text>
+		</instance>
+		<link>
+			<color1 db="1" num="3" precision="0.01" active="true" />
+			<text db="1" num="3" precision="0.01" max="1" active="true" />
+			<valuetoset db="1" num="2" precision="0.01" active="true" />
+			<valuetoset2 db="1" num="2" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="245" />
+		<pos_y value="45" />
+		<instance>
+			<comment value="НИЗ ручное копка" />
+			<width value="90" />
+			<height value="32" />
+			<valuetoinc value="1" />
+			<valuetoset2 value="1" />
+			<keys2 value="0" />
+			<text value="">
+				<txt min="0" max="0" value="Руч. упр. ниж. заслонкой: вкл" />
+				<txt min="1" max="1" value="Руч. упр. ниж. заслонкой: выкл" />
+			</text>
+			<fontsize value="11" />
+		</instance>
+		<link>
+			<text db="1" num="6" precision="0.01" active="true" />
+			<valuetoset db="1" num="6" precision="0.01" active="true" />
+			<valuetoset2 db="1" num="6" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="circle">
+		<pos_x value="623" />
+		<pos_y value="413" />
+		<instance>
+			<color1 value="16777215">
+				<clr min="1" max="1" blinking="0" gradient="0" value="57600" value2="16777215" />
+				<clr min="0" max="0" blinking="0" gradient="0" value="10724259" value2="16777215" />
+			</color1>
+			<comment value="Reg2 Led" />
+			<btn_name1 value="НИЗ ручное копка" />
+		</instance>
+		<link>
+			<color1 db="1" num="6" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="245" />
+		<pos_y value="85" />
+		<instance>
+			<color1>
+				<clr min="0" max="0" blinking="0" gradient="0" value="12517312" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="16761272" value2="16777215" />
+			</color1>
+			<comment value="Кнопка Низ Перекрыть" />
+			<width value="60" />
+			<height value="30" />
+			<valuetoset value="1" />
+			<keys2 value="0" />
+			<text value="Перекрыть заслонку">
+				<txt min="0" max="0" value="Перекрыть заслонку" />
+				<txt min="1" max="1" value="Открыть заслонку" />
+			</text>
+		</instance>
+		<link>
+			<color1 db="1" num="5" precision="0.01" active="true" />
+			<text db="1" num="5" precision="0.01" max="1" active="true" />
+			<valuetoset db="1" num="7" precision="0.01" active="true" />
+			<valuetoset2 db="1" num="7" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="150" />
+		<pos_y value="95" />
+		<instance>
+			<color1 value="0" />
+			<border_width value="1" />
+			<comment value="Zero level" />
+			<width value="20" />
+			<height value="2" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="150" />
+		<pos_y value="172" />
+		<instance>
+			<color1 value="0" />
+			<border_width value="1" />
+			<comment value="Midle level" />
+			<width value="20" />
+			<height value="2" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="150" />
+		<pos_y value="250" />
+		<instance>
+			<color1 value="0" />
+			<border_width value="1" />
+			<comment value="High level" />
+			<width value="20" />
+			<height value="2" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="200" />
+		<pos_y value="89" />
+		<instance>
+			<color1 value="52992" />
+			<color2 value="52992" />
+			<comment value="L_norm level" />
+			<width value="-55" />
+			<height value="3" />
+		</instance>
+		<link>
+			<pos_y db="1" num="17" precision="0.01" min="5" max="160" max_f="2.4" clamp="true" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="200" />
+		<pos_y value="92" />
+		<instance>
+			<pos_x value="-37" />
+			<color1 value="0" />
+			<comment value="L_norm text" />
+			<font value="arialbd.ttf" />
+			<fontsize value="8" />
+			<maxwidth value="37" />
+			<text value="цел. %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="17" precision="0.01" maxdigits="3" active="true" editable="true" />
+			<pos_y db="1" num="17" precision="0.01" min="5" max="160" max_f="2.4" clamp="true" active="true" editable="true" tooltip="true" />
+			<text db="1" num="17" precision="0.01" maxdigits="3" active="true" editable="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="68" />
+		<pos_y value="293" />
+		<instance>
+			<comment value="drop UP" />
+			<btn_name1 value="Кнопка Верх Перекрыть" />
+			<width value="21" />
+			<height value="22" />
+			<file>
+				<fl min="0" max="0.5" blinking="0" value="../img/Капля_прозрачный.png" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+				<fl min="0.5" max="1" blinking="0" value="" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+			</file>
+		</instance>
+		<link>
+			<file db="1" num="3" precision="0.01" active="true" />
+			<transparency1 db="1" num="32" precision="0.01" min="100" min_f="-10" max_f="100" active="true" />
+		</link>
+	</grid>
+	<grid type="picture">
+		<pos_x value="169" />
+		<pos_y value="49" />
+		<instance>
+			<comment value="drop Down" />
+			<btn_name1 value="Кнопка Низ Перекрыть" />
+			<width value="21" />
+			<height value="22" />
+			<file>
+				<fl min="0" max="0.5" blinking="0" value="../img/Капля_прозрачный.png" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+				<fl min="0.5" max="1" blinking="0" value="" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+			</file>
+		</instance>
+		<link>
+			<file db="1" num="5" precision="0.01" active="true" />
+			<transparency1 db="1" num="37" precision="0.01" min="100" min_f="-10" max_f="100" active="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="245" />
+		<pos_y value="20" />
+		<instance>
+			<color1 value="52992">
+				<clr min="0" max="0" blinking="0" gradient="0" value="52992" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<transparency1 value="8" />
+			<comment value="Слайдер НИЗ руной" />
+		</instance>
+		<link>
+			<color1 db="1" num="6" precision="0.01" active="true" />
+			<width db="1" num="37" precision="0.01" min="5" max="90" max_f="100" clamp="true" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<enabled_operation value="1" />
+		<pos_x value="237" />
+		<pos_y value="21" />
+		<instance>
+			<pos_x value="40" />
+			<color1 value="16777215">
+				<clr min="0" max="0" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="3289650" value2="16777215" />
+			</color1>
+			<comment value="Процент низ ручной" />
+			<font value="ariblk.ttf" />
+			<fontsize value="9" />
+			<text balloon_dsc="true" value="%v%" />
+		</instance>
+		<link>
+			<color1 db="1" num="6" precision="0.1" active="true" />
+			<text db="1" num="37" precision="0.1" active="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="9.75479" />
+		<pos_y value="359.073" />
+		<instance>
+			<color1 value="6133503" />
+			<border_width value="1" />
+			<comment value="Подложка ВЕРХ ручной" />
+			<width value="90" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="9.75479" />
+		<pos_y value="359.073" />
+		<instance>
+			<color1 value="52992">
+				<clr min="0" max="0" blinking="0" gradient="0" value="52992" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="8618883" value2="16777215" />
+			</color1>
+			<transparency1 value="8" />
+			<comment value="Слайдер ВЕРХ руной" />
+		</instance>
+		<link>
+			<color1 db="1" num="4" precision="0.01" active="true" />
+			<width db="1" num="32" precision="0.01" min="5" max="90" max_f="100" clamp="true" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<enabled_operation value="1" />
+		<pos_x value="1.7548" />
+		<pos_y value="360.073" />
+		<instance>
+			<pos_x value="40" />
+			<color1 value="16777215">
+				<clr min="0" max="0" blinking="0" gradient="0" value="16777215" value2="16777215" />
+				<clr min="1" max="1" blinking="0" gradient="0" value="3289650" value2="16777215" />
+			</color1>
+			<comment value="Процент ВЕРХ ручной" />
+			<font value="ariblk.ttf" />
+			<fontsize value="9" />
+			<text balloon_dsc="true" value="%v%" />
+		</instance>
+		<link>
+			<color1 db="1" num="4" precision="0.1" active="true" />
+			<text db="1" num="32" precision="0.1" active="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="9" />
+		<pos_y value="373" />
+		<instance>
+			<comment value="Текс ВЕРХ ручной" />
+			<text value="% откр. вентиля" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="244" />
+		<pos_y value="32" />
+		<instance>
+			<comment value="Текс НИЗ ручной" />
+			<text value="% откр. вентиля" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="rect">
+		<pos_x value="200" />
+		<pos_y value="90" />
+		<instance>
+			<color1 value="16730441" />
+			<comment value="L max level" />
+			<width value="-55" />
+			<height value="2" />
+		</instance>
+		<link>
+			<pos_y db="1" num="43" precision="0.01" min="5" max="160" max_f="2.4" clamp="true" active="true" editable="true" tooltip="true" overridemask="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="200" />
+		<pos_y value="92" />
+		<instance>
+			<pos_x value="-37" />
+			<color1 value="0" />
+			<comment value="текст L max" />
+			<font value="arialbd.ttf" />
+			<fontsize value="8" />
+			<maxwidth value="37" />
+			<text value="макс. %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="43" precision="0.01" active="true" editable="true" />
+			<pos_y db="1" num="43" precision="0.01" min="5" max="160" max_f="2.4" clamp="true" active="true" />
+			<text db="1" num="43" precision="0.01" active="true" editable="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="200" />
+		<pos_y value="90" />
+		<instance>
+			<color1 value="16777087" />
+			<comment value="L min level" />
+			<width value="-55" />
+			<height value="2" />
+		</instance>
+		<link>
+			<pos_y db="1" num="44" precision="0.01" min="5" max="160" max_f="2.4" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="200" />
+		<pos_y value="93" />
+		<instance>
+			<pos_x value="-37" />
+			<color1 value="0" />
+			<font value="arialbd.ttf" />
+			<fontsize value="8" />
+			<maxwidth value="37" />
+			<text value="мин. %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="44" precision="0.01" min="5" max="160" max_f="2.4" active="true" editable="true" />
+			<pos_y db="1" num="44" precision="0.01" min="5" max="160" max_f="2.4" active="true" />
+			<text db="1" num="44" precision="0.01" min="5" max="160" max_f="2.4" active="true" editable="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="349.59" />
+		<pos_y value="296.64" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="L nom" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="L цел: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="17" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="17" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="349.59" />
+		<pos_y value="276.64" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value=" Целевое значение выходящего потока" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="Q вых: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="18" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="18" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="349.59" />
+		<pos_y value="256.64" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Площадь дна" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="Площ: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="20" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="20" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="349.59" />
+		<pos_y value="236.64" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Макс диаметр выходной трубы" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="D вых: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="21" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="21" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="349.59" />
+		<pos_y value="216.64" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Отношение плот обычн. и раб. воды" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="d Ро: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="22" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="22" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="427.647" />
+		<pos_y value="296.39" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Константа g" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="g: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="23" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="23" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="427.647" />
+		<pos_y value="276.39" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Q_in_max" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="Q вх: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="24" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="24" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="427.647" />
+		<pos_y value="256.39" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Q_vp_nom" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="Q вып: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="25" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="25" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="427.647" />
+		<pos_y value="236.39" />
+		<instance>
+			<color1 value="16777215" />
+			<border_width value="1" />
+			<comment value="Коэффициент сглаживания управляющего воздействия" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="K сгл: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="40" precision="0.01" active="true" editable="true" tooltip="true" />
+			<text db="1" num="40" precision="0.01" active="true" editable="true" tooltip="true" />
+		</link>
+	</grid>
+	<grid type="label">
+		<pos_x value="426.647" />
+		<pos_y value="216.39" />
+		<instance>
+			<color1 value="15724527" />
+			<color2 value="6381921" />
+			<border_width value="1" />
+			<comment value="Частота обновления системы" />
+			<confirmbutton value="1" />
+			<fontsize value="10" />
+			<maxwidth value="60" />
+			<background value="1" />
+			<text balloon_dsc="true" value="dT: %v" />
+		</instance>
+		<link>
+			<color1 db="1" num="0" precision="0.01" active="true" />
+			<text db="1" num="0" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="rect">
+		<pos_x value="508" />
+		<pos_y value="384" />
+		<instance>
+			<color1 value="12769497">
+				<clr min="0" max="0" blinking="0" gradient="0" value="12769497" value2="16777215" />
+				<clr min="1" max="1" blinking="1" gradient="0" value="16761272" value2="16730441" />
+			</color1>
+			<comment value="Подложка аварийного режима" />
+			<width value="119" />
+			<height value="-169" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="label">
+		<pos_x value="526" />
+		<pos_y value="338" />
+		<instance>
+			<color1 value="0" />
+			<comment value="Заголовок Аварийный" />
+			<fontsize value="19" />
+			<maxwidth value="100" />
+			<wordWrap value="1" />
+			<text value="Контроль ур. воды:" />
+		</instance>
+		<link />
+	</grid>
+	<grid type="button">
+		<pos_x value="518" />
+		<pos_y value="318" />
+		<instance>
+			<color1>
+				<clr min="0" max="0" blinking="0" gradient="0" value="12566463" value2="16777215" />
+				<clr min="1" max="1" blinking="1" gradient="0" value="16730441" value2="16761272" />
+			</color1>
+			<border_width value="0" />
+			<comment value="Кнопка Аварийный ВЕРХ" />
+			<width value="102" />
+			<height value="-30" />
+			<file1>
+				<fl min="0" max="0" blinking="0" value="" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+				<fl min="1" max="1" blinking="0" value="@1" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+			</file1>
+			<file2 value="@1" />
+			<text value="Верхний концевик " />
+			<fontsize value="10" />
+		</instance>
+		<link>
+			<color1 db="1" num="45" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="518" />
+		<pos_y value="269" />
+		<instance>
+			<color1>
+				<clr min="0" max="0" blinking="0" gradient="0" value="12566463" value2="16777215" />
+				<clr min="1" max="1" blinking="1" gradient="0" value="16730441" value2="16761272" />
+			</color1>
+			<border_width value="0" />
+			<comment value="Кнопка Аварийный НИЗ" />
+			<width value="102" />
+			<height value="-30" />
+			<file1>
+				<fl min="0" max="0" blinking="0" value="" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+				<fl min="1" max="1" blinking="0" value="@1" value2="" transColor1="0" transColor2="0" frame_pos_x="0" frame_pos_y="0" frame_width="0" frame_height="0" fps="0" frame_count="0" frame_cnt_r="0" frame_cnt_l="0" frame_cnt_t="0" frame_cnt_b="0" frame_step_x="0" frame_step_y="0" cycles="0" vertical="false" diagonal="false" />
+			</file1>
+			<file2 value="@1" />
+			<text value="Нижний концевик " />
+			<fontsize value="10" />
+		</instance>
+		<link>
+			<color1 db="1" num="46" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="350" />
+		<pos_y value="336" />
+		<instance>
+			<border_width value="1" />
+			<width value="140" />
+			<height value="12" />
+			<valuetoset value="100" />
+			<text value="Аварийные параметры" />
+			<fontsize value="11" />
+		</instance>
+		<link>
+			<valuetoset db="1" num="18" precision="0.01" active="true" />
+		</link>
+	</grid>
+	<grid type="button">
+		<pos_x value="350" />
+		<pos_y value="316" />
+		<instance>
+			<border_width value="1" />
+			<width value="140" />
+			<height value="12" />
+			<valuetoset value="70" />
+			<text value="Штатные параметры" />
+			<fontsize value="11" />
+		</instance>
+		<link>
+			<valuetoset db="1" num="18" precision="0.01" active="true" />
+		</link>
+	</grid>
+</scheme>
