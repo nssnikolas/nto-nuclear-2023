@@ -6,7 +6,7 @@ The InnoСlear team:
 - [Art'om Voronov](https://github.com/vor-art)
 - [Roman Voronov](https://github.com/nssnikolas)
 - [Sergey Pasynkov](https://github.com/nssnikolas)
-- [Nikolay Nechaev](https://github.com/nssnikolas)
+- [Nikolay Nechaev](https://github.com/kolayne)
 
 # mikSYS installation
 Firstly, you need to install real-time software mikSYS. The order is:
