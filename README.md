@@ -1,7 +1,7 @@
 # nto-nuclear-2023
 Team InnoClear complete task for students' track final stage of National Technological Olympiad (NTO) 2023 in "Nuclear Technologies" profile.
 
-The Innoclear team:
+The InnoСlear team:
 - [Nikolas Semenov](https://github.com/nssnikolas)
 - [Art'om Voronov](https://github.com/vor-art)
 - [Roman Voronov](https://github.com/nssnikolas)
