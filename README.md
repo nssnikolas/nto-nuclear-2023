@@ -16,6 +16,7 @@ Firstly, you need to install real-time software mikSYS. The order is:
 
 Next you'll see a bunch of shotcuts on your Desktop. Select shortcut "MWBridge", go to it's properties and in field "Target" write paths to MWBridge software and project folder, similar to this:
 - "C:\Program Files (x86)\MikSYS\MWBRIDGE.exe" C:\Users\nssnikolas\Documents\GitHub\nto-nuclear-2023\project\database
+
 ![image](https://user-images.githubusercontent.com/90476733/236502568-e05f3120-5468-48bd-a2bc-8ee720074714.png)
 
 You're full set to start the project!
